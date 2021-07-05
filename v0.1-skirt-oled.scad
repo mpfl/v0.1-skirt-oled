@@ -23,7 +23,7 @@ difference() {
             cube([100,50,50]);
     }
     translate([-30,1,-0.01])
-        scale(0.5)
+        scale([0.5, 0.5, 1])
             import("Cowling_LOGO_ONLY_x1.STL");
 }
 

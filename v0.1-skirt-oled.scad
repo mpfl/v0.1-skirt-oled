@@ -4,7 +4,7 @@ screen_bezel = 4;
 screen_bezel_h = calculate_bezel(screen_bezel);
 prototype = false;
 
-standoff_screw_diameter = 2.3;
+standoff_screw_diameter = 2.1;
 standoff_outer_diameter = standoff_screw_diameter + 2;
 
 difference() {
